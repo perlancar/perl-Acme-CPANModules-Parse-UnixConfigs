@@ -10,6 +10,7 @@ our $LIST = {
         {module=>'Parse::Hosts', summary=>'Parse /etc/hosts'},
         {module=>'Parse::Services', summary=>'Parse /etc/services'},
         {module=>'Parse::Sums', summary=>'Parse checksums file, e.g. MD5SUMS, SHA1SUMS'},
+        {module=>'Data::SSHPubkey', summary=>'Parse SSH public keys'},
     ],
 };
 
@@ -19,6 +20,6 @@ our $LIST = {
 =head1 DESCRIPTION
 
 
-=head1 SEE ALSO
+=head1 append:SEE ALSO
 
 L<Acme::CPANModules::Parse::UnixCommands>
